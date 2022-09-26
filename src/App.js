@@ -4,6 +4,7 @@ import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Home from './Components/Home';
 import Login from './Components/Login/Login';
+import UserAccount from './Components/UserAccount';
 import { UserStorage } from './UserContext';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/user" element={<UserAccount />} />
             <Route path="/login/*" element={<Login />} />
           </Routes>
           <Footer />
