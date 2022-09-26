@@ -4,7 +4,7 @@ import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Home from './Components/Home';
 import Login from './Components/Login/Login';
-import UserAccount from './Components/UserAccount';
+import UserAccount from './Components/User/UserAccount';
 import { UserStorage } from './UserContext';
 
 function App() {
