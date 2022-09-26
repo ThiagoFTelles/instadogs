@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './LoginForm.module.css';
+import stylesBtn from '../Form/Button.module.css';
 import { Link } from 'react-router-dom';
 import Input from '../Form/Input';
 import Button from '../Form/Button';
@@ -39,7 +40,7 @@ const LoginForm = () => {
       <div className={styles.signup}>
         <h2 className={styles.subtitle}>Cadastre-se</h2>
         <p>Ainda não possui conta? Cadastre-se no site.</p>
-        <Link className={styles.buttonSignup} to="/login/create">
+        <Link className={stylesBtn.button} to="/login/create">
           Cadastro
         </Link>
       </div>
