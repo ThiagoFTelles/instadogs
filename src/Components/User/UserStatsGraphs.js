@@ -15,6 +15,7 @@ const UserStatsGraphs = ({ data }) => {
     });
 
     setTotal(
+      //TODO: tratar erro que dá quando o usuário ainda não tem fotos.
       data.map(({ acessos }) => Number(acessos)).reduce((a, b) => a + b),
     );
     setGraph(graphData);
